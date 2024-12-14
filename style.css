@@ -1,0 +1,463 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Inter, sans-serif;  
+    background-color: #101014;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    
+}
+#storename{
+    font-family: inter,sans-serif;
+     font-size: 20px;
+     line-height: normal;
+     letter-spacing: normal;
+     text-align: start;
+     font-weight: bold;
+}
+.nav{
+  
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+   
+    
+}
+.nav-detail a{
+    text-decoration: none;
+
+    margin-right: 30px;
+    
+    color: #ffffff;
+}
+#Download{
+    cursor: pointer;
+    margin-right: 10px;
+    font-size: 16px;
+    text-align: center;
+    border: 0;
+width: 100px;
+height: 35px;
+border-radius: 7px;
+outline: none;
+background-color: #26bbff;
+}
+#Download:hover{
+    background-color: #68ccfa;
+}
+
+#Sign-in{
+    
+    cursor: pointer;
+    margin-right: 10px;
+    font-size: 15px;
+    text-align: center;
+    color: #ffffff;
+width: 75px;
+height: 35px;
+border-radius: 6px;
+border: 0;
+    background-color:#404044;
+}
+#Sign-in:hover{
+    background-color: #58585d;
+}
+.parent{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 200px;
+    /* background-color: #101014; */
+}
+.child-one{
+    width: 75%;
+    background-color: #101014;
+}
+
+
+/* HEADER SECTION STARTING */
+.Logo-Icon{
+    width: 115px;
+    height: 60px;
+    background-color: orange;
+    cursor: pointer;
+}
+.Logo-Icon img{
+   width: 100%;
+    height: 100%;
+}
+
+  header{
+    /* background-color: #101014; */
+    width: 100%;
+    padding: 15px;
+   
+    top: 0;
+}  
+header .container{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+nav{
+    margin-left: -30px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+nav a{
+   
+    margin-right: 30px;
+    text-decoration: none;
+    letter-spacing: normal;
+    line-height: normal;
+     color: #ffffff ; 
+   
+   font-size: 16px;
+}
+
+ img{
+    
+    width: 50px ;
+    
+   
+}
+
+ header .container .buttons-class{
+    display: flex;
+   
+}
+
+.Search-Section{
+     margin-left:45px ;
+    background-color: #101014;
+    display: flex;
+    height: 100px;
+    align-items: center;
+    /* top: 0; */
+    position:sticky; 
+     z-index: 1;
+    
+     
+}
+.Bar input{
+    margin-left: 140px;
+    width: 250px;
+    height: 35px;
+    font-size: 15px;
+   border-radius: 30px;
+   padding-top:20px ;
+   padding-bottom: 20px;
+   padding-left: 40px;
+color: white;
+   outline: none;
+   border: none;
+   background-color: #1c1c1f;
+   
+}
+.navbar a{
+    
+margin-left: 60px;
+text-decoration: none;
+color: #ffffff;
+font-size: 16px;
+text-align: left;
+letter-spacing: normal;
+line-height: normal;
+}
+.Banner-Container{
+     /* margin-top: 100px;   SAMPLE MARGIN-TOP */
+    /* background-color: #101014; */
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    /* margin-bottom: -130px; */
+    position: relative;
+}
+
+.helo{
+    background-color: #101014;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.Banner-Container .Container{
+    width: 1000PX;
+    height: 560PX;
+    border-radius: 10px;
+    /* background-color: aquamarine; */
+    overflow: hidden;
+}
+.For-Image img{
+    width: 100%;
+    height: 100%;
+   cursor: pointer;
+}
+
+.Right-Contents{
+   
+    border-radius: 10px;
+    width: 170px;
+    height: 110px;
+    margin-bottom: 2.1px;
+    margin-left: 15px;
+    background-color: #101014;
+    display: flex;
+    flex-wrap: wrap;
+   justify-content: space-evenly;
+    align-items: center;
+}
+.Content-Image{
+    width: 45px;
+    height: 58px;
+    border-radius: 5px;
+   overflow: hidden;
+    background-color:black;
+    
+}
+.Content-Image img{
+    width: 100%;
+    height: 100%;
+    
+}
+.Right-Container-Section{
+    display: flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+}
+.Right-Contents:hover{
+    background-color: #404044;
+    cursor: pointer;
+}
+.Content-Name{
+    color: #ffffff;
+}
+
+
+
+
+
+
+
+.Card-Container-Section a{
+    text-decoration: none;
+    font-family: "Inter Tight", sans-serif;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: start;
+    letter-spacing: 0.4px;
+    color: #ffffff;
+    position: absolute;
+    margin-top: -50px;
+    margin-left: 20px;
+    
+    
+}
+/* .section-2{
+    background-color: #101014;
+    width: 100%;
+    height: 100%;
+} */
+
+.Cards-Container{
+    
+    
+    /* background-color: #101014; */
+    display: flex;
+    /* justify-content: center;  COME ON */
+    /* height: 10; */
+    flex-wrap: wrap;  
+    margin-top: 80px;
+    
+    
+}
+.Cards{
+    
+    width: 200.25px;
+    margin-left: 20px;
+    /* background-color: #101014; */
+    color: #ffffff;
+    border-radius: 10px;
+    overflow: hidden;
+    font-family: Inter, sans-serif;
+    margin-bottom: 70px;
+}
+
+.Cards:hover{
+    cursor: pointer;
+}
+.Image-Container img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+
+}
+
+
+.Header{
+    margin-top: 5px;
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: bolder;
+    letter-spacing: 0.24px;
+    text-align: start;
+    color: rgb(145, 136, 136);
+}
+.Game-Title{
+    margin-top: 5px;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.32px;
+    
+    font-weight: bolder;
+
+}
+.Game-Title a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.Price-Tag{
+    margin-top: 10px;
+   
+    font-size: 16px;
+    text-align: start;
+    line-height: normal;
+    letter-spacing: normal;
+}
+.Price-Action{
+    border-radius: 10px;
+    width: 47px;
+    height: 23px;
+    background-color: #26bbff;
+    font-size: 13px;
+     cursor: pointer;
+}
+.Price-Action:hover{
+    background-color: #68ccfa;
+}
+strike{
+    color: #a6a6b1;
+    font-size: 16px;
+    text-align: start;
+    line-height: normal;
+    letter-spacing: normal;
+}
+.Deals-Section{
+    display: flex;
+  cursor: pointer;
+    justify-content: space-evenly;
+    color: #ffffff;
+}
+.Deals-Week{
+    font-size: 16px;
+}
+.Deals-Image{
+    width: 350px;
+   
+}
+.Deals-Image img{
+    width: 100%;
+   border-radius:10px;
+    
+}
+.Deals-Header{
+margin-top: 20px;
+margin-bottom: 35px;
+
+}
+.Deals-Header p{
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+footer{
+    background-color: #202020;
+    width: 100%;
+    
+    top: 0;
+    padding: 0 70px;
+
+}
+.Table-One{
+    border-collapse: collapse;
+    
+}
+.Table-Two{
+    border-collapse: collapse;
+    
+}
+td, th {
+   
+    text-align: left;
+    padding: 8px;
+  }
+
+.footer-header  {
+    color: #ffffff;
+
+}
+.footer-header span{
+    font-size: 13.76px;
+    font-family: OpenSans,sans-serif;
+    color: #58585d;
+    line-height: normal;
+    text-align: start;
+    letter-spacing: normal;
+}
+.footer-header td{
+    font-family: OpenSans,sans-serif;
+    font-size:13.76px ;
+    line-height: 24px;
+    text-align: left;
+    letter-spacing: normal;
+    
+}
+hr{
+    
+    margin:50px 0px;
+    
+}
+.footer-para-one ,.footer-para-two{
+    
+    color: #cccccc;
+    font-size: 11.36px;
+    line-height: 22.72px;
+    text-align: start;
+    letter-spacing: normal;
+    font-family: OpenSans,sans-serif;
+}
+.footer-tags{
+    padding: 60px 0;
+    display: flex;
+}
+.footer-tags a{
+    margin-right: 20px;
+    text-decoration: none;
+    font-size: 12px;
+    text-align: left;
+    line-height: normal;
+    letter-spacing: normal;
+    font-family: OpenSans,sans-serif;
+    color: #ffff;
+}
+@media (max-width:1000px){
+    nav a{
+        font-size:13px ;
+    
+    }
+    
+}
